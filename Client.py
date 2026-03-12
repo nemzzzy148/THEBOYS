@@ -7,7 +7,7 @@ p_x, p_y = W // 2, H // 2
 Players = {}
 connected = False  # track connection state
 
-url = "http://192.168.0.198:5001/positionhub"
+url = "https://asher-nonchangeable-averi.ngrok-free.dev/positionhub"
 connection = HubConnectionBuilder().with_url(url).build()
 
 def move(x, y):
